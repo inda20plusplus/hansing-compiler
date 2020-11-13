@@ -1,0 +1,16 @@
+[package]
+name = "ti-compile"
+version = "0.1.0"
+authors = ["Morris Hansing <hansing@kth.se>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+lazy_static = "1.4.0"
+regex = "1.4.2"
+
+cranelift = "0.68.0"
+cranelift-module = "0.68.0"
+cranelift-simplejit = "0.68.0"
+peg = "0.6"
